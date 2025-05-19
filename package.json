@@ -1,0 +1,65 @@
+{
+  "name": "resource-dashboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^5.16.14",
+    "@progress/kendo-data-query": "^1.7.1",
+    "@progress/kendo-date-math": "^1.5.14",
+    "@progress/kendo-drawing": "^1.21.2",
+    "@progress/kendo-inputs-common": "^3.1.1",
+    "@progress/kendo-intl": "^3.1.2",
+    "@progress/kendo-licensing": "^1.6.0",
+    "@progress/kendo-popup-common": "^1.9.2",
+    "@progress/kendo-react-animation": "^10.2.0",
+    "@progress/kendo-react-buttons": "^10.2.0",
+    "@progress/kendo-react-common": "^10.2.0",
+    "@progress/kendo-react-data-tools": "^9.4.0",
+    "@progress/kendo-react-dateinputs": "^10.2.0",
+    "@progress/kendo-react-dialogs": "^10.2.0",
+    "@progress/kendo-react-dropdowns": "^10.2.0",
+    "@progress/kendo-react-excel-export": "^10.2.0",
+    "@progress/kendo-react-grid": "^10.2.0",
+    "@progress/kendo-react-inputs": "^9.4.0",
+    "@progress/kendo-react-intl": "^10.2.0",
+    "@progress/kendo-react-labels": "^10.2.0",
+    "@progress/kendo-react-layout": "^10.2.0",
+    "@progress/kendo-react-popup": "^10.2.0",
+    "@progress/kendo-react-progressbars": "^10.2.0",
+    "@progress/kendo-react-treeview": "^10.2.0",
+    "@progress/kendo-theme-default": "^10.2.0",
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.1.5",
+    "react-scripts": "^5.0.1",
+    "sweetalert2": "^11.6.13",
+    "xlsx": "^0.18.5"
+  },
+  "homepage": "http://localhost:3000",
+  "author": "",
+  "license": "MIT",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

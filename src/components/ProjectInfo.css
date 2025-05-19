@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.projectinfo-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.projectinfo-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 10px 20px; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  box-shadow: 0px 4px 2px -2px gray;
+  z-index: 1000;
+}
+
+.logo {
+  height: 40px;
+}
+
+.projectinfo-header h1 {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.project-grid-container {
+  margin-top: 10px;  /* To give space below the fixed header */
+  padding: 20px;
+  width: 100%; /* Use full width */
+  max-width: 100%; /* Remove max-width restriction */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.k-grid {
+  width: 100%; /* Ensure table takes full width */
+  border-collapse: collapse;
+}
+
+.k-grid-header {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.k-grid td, .k-grid th {
+  text-align: center;
+  padding: 12px;
+  border: 1px solid #ddd; /* Added border for better visibility */
+}
+
+/* Adjust column widths */
+.k-grid th, .k-grid td {
+  white-space: nowrap;
+  min-width: 120px; /* Increased the min width to avoid cramped text */
+}
+
+/* Specific adjustment for 'skill' column */
+.k-grid .skill {
+  width: 25%; /* Adjust as needed for the 'skill' column */
+}
+
+.add-resource-modal {
+  width: 90%;
+  max-width: 800px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-footer {
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.k-grid-header th {
+  background-color: #4CAF50; /* Green background */
+  color: rgb(38, 108, 146); /* White text */
+  font-weight: bold;
+  text-transform: uppercase; /* Optional: Make text uppercase */
+}
+
+.custom-header {
+  background-color: #c9cfc9; /* Change to your desired color */
+  color: rgb(36, 115, 133); /* Change text color */
+  font-weight: bold; /* Optional: make text bold */
+}
